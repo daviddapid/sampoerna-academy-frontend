@@ -272,31 +272,28 @@
 .slick-resp-nav .slick-next,
 .slick-resp2-nav .slick-prev,
 .slick-resp2-nav .slick-next {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    border: 1px solid var(--my-purple);
-    border-radius: 1000px;
-    transition: .3s;
-    bottom: -90px;
+    top: 33px;
 }
 
 .slick-resp-nav .slick-prev,
 .slick-resp2-nav .slick-prev {
-    bottom: -140px;
+    bottom: -132px;
 }
 
 .slick-resp-nav .slick-prev::before,
 .slick-resp2-nav .slick-prev::before  {
     content: url('../../assets/icon/arrow-left-purple.svg');
     position: absolute;
-    left: 2px;
-    top: 0 !important;
+    left: 10px !important;
+    bottom: 2000px !important;
 }
 
 .slick-resp-nav .slick-next::before,
 .slick-resp2-nav .slick-next::before {
     content: url('../../assets/icon/arrow-right-purple.svg');
+    position: absolute;
+    left: 10px !important;
+    top: -1000px !important;
 }
 
 .slick-resp-nav .slick-prev::before,
@@ -315,7 +312,7 @@
 
 .slick-resp-nav .slick-prev,
 .slick-resp2-nav .slick-prev {
-    margin-left: -20px;
+    margin-left: -8px;
 }
 
 
